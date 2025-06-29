@@ -1,0 +1,84 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3M8SwCVonRiFWmLnkwopdd",
+      "projectApiToken": "4tpdZKm3M0lOgqmgA1kXPGK0StOF3TdMZg2SX0OvyRKCOnA52sD3nJwcyO56lYLTr1kHrz3Yu4qrz1b6ww",
+      "projectName": "MiveyeDelam Master (v1)",
+      "version": "latest",
+      "cssFilePath": "plasmic/miveye_delam_master_v_1/plasmic.module.css",
+      "components": [
+        {
+          "id": "ympqEqo_WgNU",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3M8SwCVonRiFWmLnkwopdd",
+          "renderModuleFilePath": "plasmic/miveye_delam_master_v_1/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/miveye_delam_master_v_1/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "sHDzHd15QV1Y",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "henrtXBWH5Pz",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "zfg52J9rR6q8",
+        "name": "Screen",
+        "projectId": "3M8SwCVonRiFWmLnkwopdd",
+        "contextFilePath": "plasmic/miveye_delam_master_v_1/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.338",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.338/dist/plasmic.schema.json"
+}
